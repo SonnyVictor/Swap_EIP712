@@ -41,9 +41,8 @@ This project implements a **token-NFT swap system** allowing two users to secure
 | `ContractB.sol`  | Handles ERC-721 deposits and transfers with custom EIP-712 |
 | `SwapContract.sol` | Core swap logic and signature validation                |
 
-##  Project Structure
-
 ## Usage
+```bash
 npx hardhat compile
 npx hardhat node
 npx hardhat run scripts/deploy.js --network localhost
