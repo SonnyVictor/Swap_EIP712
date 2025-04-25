@@ -49,6 +49,7 @@ npx hardhat node
 npx hardhat run scripts/deploy.js --network localhost
 
 ###
+```bash
 Deployer:           0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
 UserA:              0x70997970C51812dc3A010C7d01b50e0d17dc79C8
 UserB:              0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC
@@ -79,4 +80,4 @@ ContractB deployed to:    0x851356ae760d987E095750cCeb3bC6014560891C
  Final Balances:
 - UserA token balance:   0.0
 - UserB token balance:   1500.0
-- UserA owns NFT #1:     ✅ true
+- UserA owns NFT #1:
