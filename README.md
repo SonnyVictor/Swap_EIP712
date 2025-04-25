@@ -23,10 +23,6 @@ This project implements a **token-NFT swap system** allowing two users to secure
   - `Ownable`, `Pausable`, `ReentrancyGuard`
   - Input validation to avoid incorrect usage
 
-- **Gas Optimization**  
-  - Immutable variables
-  - Early `require()` condition checks
-
 - **Developer Friendly**  
   - Emit detailed events for all key operations
   - Clear contract structure for maintainability
